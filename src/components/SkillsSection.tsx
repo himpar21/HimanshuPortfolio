@@ -139,7 +139,7 @@ export default function SkillsSection() {
                   {skill.name}
                 </Card>
                 {/* Back */}
-                <Card className="absolute inset-0 text-white text-sm px-4 py-6 w-full h-full flex items-center justify-center text-center border border-gray-700 rotate-y-180 backface-hidden rounded-xl">
+                <Card className="absolute inset-0 bg-black/20 text-white text-sm px-4 py-6 w-full h-full flex items-center justify-center text-center border border-gray-700 rotate-y-180 backface-hidden rounded-xl">
                   {skill.description}
                 </Card>
               </div>
