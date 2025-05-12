@@ -61,7 +61,7 @@ export default function WorkExperience() {
             const isLeft = index % 2 === 0;
             return (
               <motion.div
-            key={exp.role}
+            key={exp.title}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
