@@ -11,8 +11,10 @@ import {
 } from "@/components/ui/select";
 import { Card } from "@/components/ui/card";
 
+type Skill = { name: string; description: string };
+type SkillCategories = Record<string, Skill[]>;
 
-const skillCategories = {
+const skillCategories: SkillCategories = {
   "Machine Learning": [
     { name: "PyTorch", description: "A flexible, Pythonic deep learning library used for building and training dynamic neural networks." },
     { name: "TensorFlow", description: "An end-to-end open-source machine learning platform developed by Google for scalable model training and deployment." },
